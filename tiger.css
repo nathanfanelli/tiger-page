@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ 
+
+/*-- Navigation --*/
+nav{
+	background: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	padding: 20px 18px;
+}
+li a{
+	text-decoration: none;
+	color: #fff;
+}
+li:hover{
+	background-color: #ccc;
+}
+/*-- End Navigation --*/
+
+
+/*-- Landing Page --*/
+.landing{
+	display: flex;
+	background-image: url("http://1.bp.blogspot.com/-RP0maCZRPN8/T_rZkcPwO8I/AAAAAAAAAS4/EPX2A1k0OgE/s1600/tiger+siberian.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.head-content{
+	text-align: center;
+}
+.landing h1{
+	font-size: 5rem;
+}
+.landing p{
+	font-size: 2.5rem;
+}
+/*-- End Landing Page --*/
+
+
+/*-- 2 Column Layout --*/
+.row{
+	display: flex;
+	flex-direction: row;
+	width: 90vw;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.cols{
+	flex: 1;
+	text-align: center;
+	font-size: 2rem;
+	border: 5px solid red;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+/*-- 2 Column Layout --*/
+
+
+/*-- Table --*/
+table{
+	width: 89vw;
+	margin: 0 auto;
+	border: 5px solid red;
+	height: 300px;
+	margin-bottom: 100px;
+}
+tr, td, th{
+	border: 1px solid red;
+	text-align: center;
+}
+/*-- Table --*/
+
+
+/*-- Footer --*/
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+/*-- End Footer --/
+
+
+/*-- Media Queries --*/
+@media only screen and (max-width: 796px){
+	.row{
+		display: flex;
+		flex-direction: column;
+	}
+}
+/*-- End Media Queries --*/
+
