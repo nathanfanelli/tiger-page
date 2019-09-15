@@ -1,2 +1,2 @@
 # tiger-page
-This is a simple, 2-column responsive page. 
+This is a simple two column responsive layout. 
